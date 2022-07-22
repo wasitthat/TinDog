@@ -58,7 +58,7 @@ img{
         margin-right:auto;
         margin-left: auto;
 
-        z-index: 0;
+        z-index: 1;
     }
    }
 
@@ -164,6 +164,13 @@ img{
     bottom: 20px;
 
 }
+.btn-light:hover{
+    opacity: .70;
+}
+
+.btn-dark:hover{
+    opacity: .70;
+}
 .card-body{
     padding: .5rem 1rem 1rem 1rem;
 }
@@ -173,7 +180,7 @@ img{
 }
 
 #cta{
-    background-color: #ef8172;
+    background-color: #ff4c68;
     text-align: center;
     align-content: center;
     padding: 2rem 2rem;
@@ -183,6 +190,7 @@ img{
     margin-top: 2rem;
     align-content: center;
     text-align:center;
+    background-color: #fff;
 }
 .row{
     padding-bottom: 3rem;
@@ -190,4 +198,8 @@ img{
 
 #pricing{
     text-align: center;
+}
+.icons{
+    text-decoration: none;
+    color: black;
 }
