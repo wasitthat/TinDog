@@ -23,7 +23,7 @@ h2{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar-collapse{
@@ -34,9 +34,33 @@ img{
 }
 
 .phone{
-    width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
+@media (min-width: 751px) and (max-width:1200px){
+    .phone{
+        transform: rotate(0deg);
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+@media(max-width: 750){
+    .phone{
+        transform: rotate(0deg);
+        position: static;
+        margin-right:auto;
+        margin-left: auto;
+
+        z-index: 0;
+    }
+   }
 
 .nav-item{
     padding-right:20%;
@@ -65,7 +89,9 @@ img{
 #features {
     text-align: center;
     padding: 7% 15%;
-}
+    background-color: white;
+    position: relative;
+    }
 .wink{
 
     height: 150px;
