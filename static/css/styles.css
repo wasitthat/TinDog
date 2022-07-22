@@ -192,6 +192,10 @@ img{
     text-align:center;
     background-color: #fff;
 }
+.bottom-buttons{
+    padding-left: inherit;
+
+}
 .row{
     padding-bottom: 3rem;
 }
@@ -202,6 +206,8 @@ img{
 .icons{
     text-decoration: none;
     color: black;
+    padding: 0 10px;
+    font-size: 3rem;
 }
 
 .icons:hover{
