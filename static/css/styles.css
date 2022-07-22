@@ -203,3 +203,7 @@ img{
     text-decoration: none;
     color: black;
 }
+
+.icons:hover{
+    color:#ff4c68;
+}
